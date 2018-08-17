@@ -3,7 +3,7 @@ import baseStyle from './styles';
 
 export interface HelloProps {
     text: string,
-    style: any
+    style?: any
 }
 
 export class Hello extends React.Component <HelloProps, {}> {
