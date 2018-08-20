@@ -18,11 +18,15 @@
 		"noUnusedParameters": true,
 		"noUnusedLocals": true,
 		"types": [
-			"react"
+			"react",
+			"react-dom",
+    		"react-native"
 		]
 	},
 	"types": [
-		"react"
+		"react",
+		"react-dom",
+    	"react-native"
 	],
 	"exclude": [
 		"node_modules"
