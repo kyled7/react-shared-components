@@ -7,13 +7,13 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@storybook/addon-options": "^3.4.10",
-    "@storybook/react": "^3.4.10",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-native-web": "^0.8.9"
   },
   "devDependencies": {
+    "@storybook/addon-options": "^3.4.10",
+    "@storybook/react": "^3.4.10",
     "babel-core": "^6.26.3",
     "babel-plugin-react-native-web": "^0.8.9",
     "babel-preset-react-native": "^4.0.0",
@@ -21,6 +21,7 @@
     "webpack": "^3.10.0"
   },
   "scripts": {
-    "storybook": "start-storybook -p 9001 -c ./storybook/.storybook"
+    "storybook": "start-storybook -p 9001 -c ./storybook/.storybook",
+    "prepare": ""
   }
 }
