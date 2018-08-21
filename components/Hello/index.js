@@ -7,7 +7,11 @@ class Hello extends React.Component {
     render() {
         const { style, text } = this.props;
         let mergedstyle = {...baseStyle, ...style}
-        return <Text style={mergedstyle.hello}> Hello, this is the text from props: {text} </Text>
+        return (
+            <View style={mergedstyle.hello}>
+                <Text> Hello, this is the text from props: {text} </Text>
+            </View>
+        )
     }
 }
 
